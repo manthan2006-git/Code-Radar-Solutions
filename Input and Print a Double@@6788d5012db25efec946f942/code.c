@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
 double x;
-scanf("%f",&x);
-printf("You entered: %f",x);
+scanf("%1f",&x);
+printf("You entered: %1f",x);
 return 0;
 
 
