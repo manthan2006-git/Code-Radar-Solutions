@@ -1,4 +1,4 @@
-#include<stdio>
+#include<stdio.h>
 int main(){
 char x[100];
 char y[100];
