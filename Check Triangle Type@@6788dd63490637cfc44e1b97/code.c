@@ -5,7 +5,7 @@ scanf("%d %d %d",&x,&y,&z);
 if(x+y>z && x+z>y && z+y>x){
    if(x==y || y==z)
    printf("Equilateral");
-else if(x==y|| x==z|| z==y)
+else if(x==y|| y==z|| z==x)
 
     printf("Isosceles");}
 else{
