@@ -5,6 +5,6 @@ float pi=3.14;
 float a;
 scanf("%d",&x);
 a= pi*x^2;
-printf("%.2f",a);
+printf("%.2f",x);
     return 0;
 }
