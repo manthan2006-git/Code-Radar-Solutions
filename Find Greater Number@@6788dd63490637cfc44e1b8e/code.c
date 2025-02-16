@@ -7,7 +7,7 @@ if(x>y){
 }else if(x<y){
     printf("%d",y);
 }else{
-    printf("error")
+    
 }
 
 return 0;
