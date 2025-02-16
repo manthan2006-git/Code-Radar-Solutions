@@ -2,9 +2,9 @@
 int main(){
 char c;
 scanf("%c",&c);
-if( ('A'<=c)&&(c>='Z')){
+if( (c<='A')&&(c>='Z')){
     printf("Uppercaste");
-}else if( ('a'<=c)&&(c>='z')){
+}else if( (c<='a')&&(c>='z')){
     printf("Lowercaste");
 }else{
     printf("Not an alphabet");
