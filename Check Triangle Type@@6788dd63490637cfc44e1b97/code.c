@@ -6,10 +6,12 @@ if(x+y>z && x+z>y && z+y>x){
    if(x==y && y==z)
    printf("Equilateral");
 else if(x==y|| y==z|| z==x)
-
-    printf("Isosceles");}
-else{
+    printf("Isosceles");
+    else
     printf("Scalene");
+    }
+else{
+    printf("Eror")
 }
 
 
