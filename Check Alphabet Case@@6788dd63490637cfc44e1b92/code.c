@@ -7,7 +7,7 @@ if( ('A'<=c)&&(c>='Z')){
 }else if( ('a'<=c)&&(c>='z')){
     printf("Lowercaste");
 }else{
-    printf("Error");
+    printf("Not an alphabet");
 }
 
 
