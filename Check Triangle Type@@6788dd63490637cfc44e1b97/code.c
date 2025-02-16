@@ -7,7 +7,7 @@ if(x+y>z && x+z>y && z+y>x){
    printf("Equilateral");
 else if(x==y|| y==z|| z==x)
     printf("Isosceles");
-    else
+else
     printf("Scalene");
     }
 else{
